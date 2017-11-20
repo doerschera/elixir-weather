@@ -36,6 +36,6 @@ defmodule Weather.CLI do
     "name" => name,
     "weather" => [%{"description" => description}]
   }) do
-    "It is currently #{temp} is #{name} with #{description}."
+    "It is currently #{temp} degrees in #{name} with #{description}."
   end
 end
