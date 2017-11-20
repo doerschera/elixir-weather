@@ -2,7 +2,7 @@ defmodule Weather.CLI do
   def main(args) do
     args
     |> process_args
-    |> IO.inspect
+    |> IO.puts
   end
 
   defp process_args([zip | _]) do
